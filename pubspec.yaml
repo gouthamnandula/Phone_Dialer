@@ -1,0 +1,24 @@
+name: phone_dialer
+description: A phone dialer application built with Flutter.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  url_launcher: ^6.1.11
+  permission_handler: ^10.3.0
+  contacts_service: ^0.6.3
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
